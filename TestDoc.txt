@@ -1,3 +1,6 @@
 test
 cyborg
 SAAS
+NTRO
+NotPetya
+Critical bug fixed done 
