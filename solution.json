@@ -1,0 +1,23 @@
+
+{
+    "solution": {
+        "name": "VS CODE course",
+        "projects": [
+        {
+            "name": "Project1",
+            "files": [
+            "index.html",
+            "style.css",
+            "script.js"
+            ]
+        },
+        {
+            "name": "Project2",
+            "files": [
+            "app.py",
+            "requirements.txt"
+            ]
+        }
+        ]
+    }
+}
