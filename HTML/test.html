@@ -20,14 +20,121 @@
     <main> 
         <form action="success.html" method="GET">
             <label for="e_name">Name:
-            <input name="e_name">
+            <input 
+            type="text" 
+            id="e_name" 
+            name="e_name" 
+            pattern="[A-Z a-z]+" 
+            title="Only letters allowed no special characters"
+            placeholder="Name"
+            required>
             </label>
             <br>
             <label for="e_email">Email:
-            <input name="e_email" type="email">
+            <input 
+            type="email" 
+            id="e_email" 
+            name="e_email" 
+            placeholder="Email@domain.com"
+            required>
+            </label>
+            <br>
+            <label for="e_password">Password:
+            <input 
+            type="password" 
+            id="e_password" 
+            name="e_password" 
+            placeholder="Password"
+            required>
+            </label>
+            <br>
+            <label for="e_Number">Number:
+            <input 
+            type="number" 
+            id="e_Number" 
+            name="e_Number" 
+            required>
+            </label>
+            <br>
+            <label for="e_Date">Date:
+            <input 
+            type="date" 
+            id="e_Date" 
+            name="e_Date" 
+            required
+            value="1920-05-02"
+            readonly>
+            </label>
+            <br>
+            <label for="e_Time">Time:
+            <input 
+            type="time" 
+            id="e_Time" 
+            name="e_Time" 
+            style="width: 200px; padding: 5px;"
+            required>
             </label>
             <br>
             <button>sign up </button>
+            <div>
+                <p>Please select your gender:</p>
+                <label for="e_male">
+                    <input type="radio" 
+                    id="e_male"
+                    name="e_gender"
+                    value="male"
+                    required>
+                    Male
+                </label>
+                <br>
+                <label for="e_female">
+                    <input type="radio" 
+                    id="e_female"
+                    name="e_gender"
+                    value="female"
+                    required>
+                    Female
+                </label>
+                <br>
+            </div>
+        <div>
+            <p> Please select your fantasy</p>
+            <label for="e_fantasy1">
+                <input type="checkbox" 
+                id="e_fantasy1"
+                name="e_fantasy"
+                value="superhero">
+                Deadpool jimmy changa
+            </label>
+            <br>
+            <label for="e_fantasy2">
+                <input type="checkbox" 
+                id="e_fantasy2"
+                name="e_fantasy"
+                value="superhero">
+                Deadpool and Wolverine
+            </label>
+            <br>
+        </div>
+        <div>
+            <label for ="e_search">
+                <input type="search" 
+                id="e_search"
+                name="e_search"
+                placeholder="Search for your favourite superhero">
+                <input type="submit" value="Search">
+            </label>
+        </div>
+        <div>
+            <label for ="e_message">Message to deadpool
+            <textarea id="e_message"
+            name="e_message"
+            cols="30"
+            rows="5">
+            </textarea>
+            </label>
+        </div>
+        </div>
         </form>
         <div>
             <p>
